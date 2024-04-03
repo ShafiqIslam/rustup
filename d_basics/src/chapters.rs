@@ -1,0 +1,30 @@
+mod arrays;
+mod characters;
+mod conditionals;
+mod constants;
+mod exercises;
+mod functions;
+mod loops;
+mod numbers_and_operations;
+mod ownership;
+mod scopes_and_shadowing;
+mod statement_and_expression;
+mod strings;
+mod tuples;
+
+pub use crate::chapters::arrays::arrays;
+pub use crate::chapters::characters::characters;
+pub use crate::chapters::conditionals::conditionals;
+pub use crate::chapters::constants::constants;
+pub use crate::chapters::exercises::exercises;
+pub use crate::chapters::functions::functions;
+pub use crate::chapters::loops::loops;
+pub use crate::chapters::numbers_and_operations::numbers_and_operations;
+pub use crate::chapters::ownership::ownership;
+pub use crate::chapters::scopes_and_shadowing::scopes_and_shadowing;
+pub use crate::chapters::statement_and_expression::statement_and_expression;
+pub use crate::chapters::strings::strings;
+pub use crate::chapters::tuples::tuples;
+
+// pub use crate::chapters::constants;
+// pub mod toilet;

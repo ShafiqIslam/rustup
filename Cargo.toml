@@ -1,0 +1,2 @@
+[workspace]
+members = ["b_hello_cargo", "c_guessing_game", "d_basics"]

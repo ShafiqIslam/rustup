@@ -16,4 +16,6 @@ fn main() {
     loops();
     exercises();
     ownership();
+    structs();
+    enums();
 }

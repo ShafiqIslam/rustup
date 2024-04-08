@@ -14,8 +14,11 @@ fn main() {
     functions();
     conditionals();
     loops();
-    exercises();
+    common_programming_exercises();
     ownership();
     structs();
     enums();
+    collections();
+    collection_exercises();
+    error_handling();
 }

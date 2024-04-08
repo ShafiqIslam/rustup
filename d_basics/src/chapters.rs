@@ -1,8 +1,10 @@
 mod arrays;
 mod characters;
+mod collections;
 mod conditionals;
 mod constants;
 mod enums;
+mod error_handling;
 mod exercises;
 mod functions;
 mod loops;
@@ -16,10 +18,13 @@ mod tuples;
 
 pub use crate::chapters::arrays::arrays;
 pub use crate::chapters::characters::characters;
+pub use crate::chapters::collections::collections;
 pub use crate::chapters::conditionals::conditionals;
 pub use crate::chapters::constants::constants;
 pub use crate::chapters::enums::enums;
-pub use crate::chapters::exercises::exercises;
+pub use crate::chapters::error_handling::error_handling;
+pub use crate::chapters::exercises::collection_exercises;
+pub use crate::chapters::exercises::common_programming_exercises;
 pub use crate::chapters::functions::functions;
 pub use crate::chapters::loops::loops;
 pub use crate::chapters::numbers_and_operations::numbers_and_operations;

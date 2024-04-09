@@ -21,4 +21,5 @@ fn main() {
     collections();
     collection_exercises();
     error_handling();
+    polymorphism();
 }
